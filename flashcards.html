@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Procvičování</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="flashcard-container">
+    <div class="top-bar">
+        <button id="backToHome" class="icon-button" aria-label="Zpět na hlavní stránku">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon-small">
+                <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+            </svg>
+        </button>
+        <button id="pronounce" class="icon-button" aria-label="Přehrát výslovnost">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon-small">
+                <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 5v14c2.89-1.3 4.88-4.23 4.88-7s-1.99-5.7-4.88-7z"/>
+            </svg>
+        </button>
+    </div>
+
+    <div class="card" id="card">
+        <div class="card-content card-front" id="card-front-content">
+            Načítám slova...
+        </div>
+        <div class="card-content card-back" id="card-back-content">
+            Překlad...
+        </div>
+    </div>
+    <div class="bottom-buttons">
+        <button id="dontRemember" class="negative-action">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon">
+                <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+            </svg>
+            Nepamatuji
+        </button>
+        <button id="remember" class="positive-action">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon">
+                <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/>
+            </svg>
+            Pamatuji
+        </button>
+    </div>
+</div>
+
+<div class="ad-container">
+    </div>
+
+<script src="flashcards.js"></script>
+</body>
+</html>
