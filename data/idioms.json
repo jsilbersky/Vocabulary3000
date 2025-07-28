@@ -1,0 +1,30 @@
+{
+  "Konverzace a interakce": {
+    "Začínání a plynulost rozhovoru": [
+      { "english": "break the ice", "czech": "prolomit ledy", "sentence": "He told a joke to break the ice at the meeting." },
+      { "english": "hit it off", "czech": "padnout si do oka", "sentence": "They hit it off right after they met." },
+      { "english": "small talk", "czech": "nezávazná konverzace", "sentence": "We had some small talk before the meeting started." }
+    ],
+    "Ticho a neporozumění": [
+      { "english": "go over someone’s head", "czech": "nejde mu to do hlavy", "sentence": "The explanation went over his head." },
+      { "english": "lost for words", "czech": "beze slov", "sentence": "I was lost for words when I saw the view." }
+    ]
+  },
+  "Emoce a reakce": {
+    "Radost a smutek": [
+      { "english": "over the moon", "czech": "v sedmém nebi", "sentence": "She was over the moon when she got the job." },
+      { "english": "feel blue", "czech": "být smutný", "sentence": "She felt blue after the holidays were over." }
+    ],
+    "Strach a nervozita": [
+      { "english": "get cold feet", "czech": "ztratit odvahu", "sentence": "He got cold feet before the wedding." },
+      { "english": "on edge", "czech": "napjatý, nervózní", "sentence": "I’ve been on edge all day before the test." }
+    ]
+  },
+  "Nemoci a nepohoda": {
+    "Zdravotní stav a nepříjemnosti": [
+      { "english": "under the weather", "czech": "necítit se dobře", "sentence": "I'm feeling under the weather today." },
+      { "english": "a pain in the neck", "czech": "otravná věc/osoba", "sentence": "This broken printer is a real pain in the neck." },
+      { "english": "catch your death (of cold)", "czech": "nastydnout až do nemoci", "sentence": "Put on a coat or you'll catch your death!" }
+    ]
+  }
+}

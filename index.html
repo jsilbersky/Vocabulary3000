@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WordDrill 3000</title>
+    <title>EnglishBricks</title>
     <link rel="icon" href="favicon.png" type="image/png">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="stylesheet" href="style.css" />
@@ -11,25 +11,54 @@
 <body>
     <div class="container">
         <header class="app-header">
-            <h1>WordDrill 3000</h1>
-            <p class="subtitle">Procvičuj slovíčka podle témat</p>
+            <h1>EnglishBricks</h1>
+            <p class="subtitle">Stav svou angličtinu krok za krokem</p>
         </header>
-        <div id="categories"></div>
+        <div class="top-bar" id="back-bar" style="display: none;">
+    <button id="backToHome" class="icon-button" aria-label="Zpět na hlavní stránku">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon-small">
+            <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+        </svg>
+    </button>
+</div>
+
+
+        <!-- Výběr typu obsahu -->
+        <div id="type-selection">
+            <h2>Co chceš procvičovat?</h2>
+            <div class="type-buttons">
+                <div class="topic-grid">
+                    <button class="topic-tile" onclick="selectType('vocabulary')">Slovíčka</button>
+                    <button class="topic-tile" onclick="selectType('idioms')">Idiomy</button>
+                </div>
+
+                <!-- Přidej další typy: phrases, chunks atd. -->
+            </div>
+        </div>
+
+        <!-- Kategorie se zobrazí až po výběru typu -->
+        <div id="categories" style="display: none;"></div>
     </div>
 
     <script src="main.js"></script>
-    <script>
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/service-worker.js')
-                    .then(registration => {
-                        console.log('ServiceWorker registrace úspěšná:', registration.scope);
-                    })
-                    .catch(error => {
-                        console.log('ServiceWorker registrace selhala:', error);
-                    });
-            });
-        }
-    </script>
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/service-worker.js')
+                .then(registration => {
+                    console.log('ServiceWorker registrace úspěšná:', registration.scope);
+                })
+                .catch(error => {
+                    console.log('ServiceWorker registrace selhala:', error);
+                });
+        });
+    }
+
+    function selectType(type) {
+        localStorage.setItem('practiceType', type);
+        document.getElementById('type-selection').style.display = 'none';
+        document.getElementById('categories').style.display = 'block';
+        loadCategories(type); // Tady se načte JSON podle typu
+    }
+</script>
 </body>
-</html>
