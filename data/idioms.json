@@ -1,30 +1,64 @@
 {
-  "Konverzace a interakce": {
-    "Začínání a plynulost rozhovoru": [
-      { "english": "break the ice", "czech": "prolomit ledy", "sentence": "He told a joke to break the ice at the meeting." },
-      { "english": "hit it off", "czech": "padnout si do oka", "sentence": "They hit it off right after they met." },
-      { "english": "small talk", "czech": "nezávazná konverzace", "sentence": "We had some small talk before the meeting started." }
+  "Idiomy": {
+    "Oblečení": [
+      { "english": "tighten your belt", "czech": "utáhnout si opasek (šetřit)", "sentence": "After losing his job, he had to tighten his belt." },
+      { "english": "fit like a glove", "czech": "padnout jako ulitý", "sentence": "This new jacket fits like a glove." },
+      { "english": "wear the trousers", "czech": "nosit kalhoty (být ten, kdo rozhoduje)", "sentence": "She definitely wears the trousers in that family." },
+      { "english": "burst at the seams", "czech": "praskat ve švech", "sentence": "The train was bursting at the seams with commuters." },
+      { "english": "roll up your sleeves", "czech": "vyhrnout si rukávy (pustit se do práce)", "sentence": "It’s time to roll up our sleeves and get this done." },
+      { "english": "catch someone with their pants down", "czech": "nachytat někoho nepřipraveného", "sentence": "The storm caught us with our pants down." },
+      { "english": "have something up your sleeve", "czech": "mít něco v rukávu (překvapení nebo plán)", "sentence": "Don’t worry, I have a backup plan up my sleeve." },
+      { "english": "dressed to kill", "czech": "obléknutý na zabití", "sentence": "She showed up dressed to kill at the gala." },
+      { "english": "cloak-and-dagger", "czech": "tajemný, konspirativní", "sentence": "It all felt a bit cloak-and-dagger to me." },
+      { "english": "hand in glove", "czech": "ruku v ruce, úzce spojený", "sentence": "They work hand in glove on these issues." }
     ],
-    "Ticho a neporozumění": [
-      { "english": "go over someone’s head", "czech": "nejde mu to do hlavy", "sentence": "The explanation went over his head." },
-      { "english": "lost for words", "czech": "beze slov", "sentence": "I was lost for words when I saw the view." }
-    ]
-  },
-  "Emoce a reakce": {
-    "Radost a smutek": [
-      { "english": "over the moon", "czech": "v sedmém nebi", "sentence": "She was over the moon when she got the job." },
-      { "english": "feel blue", "czech": "být smutný", "sentence": "She felt blue after the holidays were over." }
+    "Jídlo a vaření": [
+      { "english": "bring home the bacon", "czech": "nosit domů peníze (zajišťovat živobytí)", "sentence": "He works two jobs to bring home the bacon." },
+      { "english": "full of beans", "czech": "plný energie", "sentence": "The kids were full of beans after the birthday cake." },
+      { "english": "spill the beans", "czech": "prozradit tajemství", "sentence": "He accidentally spilled the beans about the surprise party." },
+      { "english": "have a lot on your plate", "czech": "mít toho hodně na práci", "sentence": "She can’t help right now – she’s got a lot on her plate." },
+      { "english": "bite off more than you can chew", "czech": "ukousnout si víc, než zvládneš", "sentence": "He bit off more than he could chew with this project." },
+      { "english": "a piece of cake", "czech": "hračka, velmi snadné", "sentence": "The test was a piece of cake." },
+      { "english": "the icing on the cake", "czech": "třešnička na dortu", "sentence": "The sunny weather was the icing on the cake." },
+      { "english": "cool as a cucumber", "czech": "naprosto klidný", "sentence": "Even under pressure, she remained cool as a cucumber." },
+      { "english": "not my cup of tea", "czech": "není to můj šálek čaje", "sentence": "Reality TV just isn't my cup of tea." },
+      { "english": "salt of the earth", "czech": "čestný, dobrý člověk", "sentence": "My grandfather was the salt of the earth." }
     ],
-    "Strach a nervozita": [
-      { "english": "get cold feet", "czech": "ztratit odvahu", "sentence": "He got cold feet before the wedding." },
-      { "english": "on edge", "czech": "napjatý, nervózní", "sentence": "I’ve been on edge all day before the test." }
+    "Cestování": [
+      { "english": "hit the road", "czech": "vyrazit na cestu", "sentence": "Let’s hit the road early to avoid traffic." },
+      { "english": "off the beaten track", "czech": "mimo vyšlapané cesty", "sentence": "They found a small village off the beaten track." },
+      { "english": "live out of a suitcase", "czech": "žít z kufru (být neustále na cestách)", "sentence": "She’s been living out of a suitcase for months." },
+      { "english": "travel light", "czech": "cestovat nalehko", "sentence": "I always travel light with just a backpack." },
+      { "english": "miss the boat", "czech": "prošvihnout příležitost", "sentence": "He missed the boat on that great job offer." },
+      { "english": "jump on the bandwagon", "czech": "připojit se k trendu", "sentence": "He jumped on the travel blog bandwagon." },
+      { "english": "in the same boat", "czech": "být na jedné lodi", "sentence": "We’re all in the same boat – stuck at the airport." },
+      { "english": "flying high", "czech": "být na vrcholu, mít úspěch", "sentence": "After the award, she’s been flying high." },
+      { "english": "take a detour", "czech": "udělat objížďku", "sentence": "We had to take a detour because of roadwork." },
+      { "english": "on the road", "czech": "na cestách", "sentence": "He spends most of his time on the road." }
+    ],
+    "Nákupy": [
+      { "english": "shop till you drop", "czech": "nakupovat až do padnutí", "sentence": "We shopped till we dropped during the sale." },
+      { "english": "a steal", "czech": "velmi výhodná koupě", "sentence": "This jacket was a steal at that price!" },
+      { "english": "cost an arm and a leg", "czech": "stát majlant", "sentence": "That designer bag cost an arm and a leg." },
+      { "english": "window shopping", "czech": "koukat do výloh (bez úmyslu koupit)", "sentence": "We spent the afternoon window shopping downtown." },
+      { "english": "pay through the nose", "czech": "zaplatit nehorázně moc", "sentence": "They paid through the nose for that sofa." },
+      { "english": "go on a shopping spree", "czech": "rozhodit peníze při nakupování", "sentence": "She went on a shopping spree after payday." },
+      { "english": "worth every penny", "czech": "stojí to za každou korunu", "sentence": "That meal was worth every penny." },
+      { "english": "throw money around", "czech": "rozhazovat peníze", "sentence": "He loves to throw money around at parties." },
+      { "english": "buy a lemon", "czech": "koupit něco vadného", "sentence": "I bought a lemon of a car last year." },
+      { "english": "get a good deal", "czech": "udělat výhodný nákup", "sentence": "She got a really good deal on that phone." }
+    ],
+    "Peníze": [
+      { "english": "money talks", "czech": "peníze hýbou světem", "sentence": "In politics, money talks." },
+      { "english": "break the bank", "czech": "vyluxovat peněženku", "sentence": "Buying that TV didn’t break the bank." },
+      { "english": "save for a rainy day", "czech": "šetřit na horší časy", "sentence": "She always saves a little for a rainy day." },
+      { "english": "make ends meet", "czech": "vycházet s penězi", "sentence": "It’s hard to make ends meet these days." },
+      { "english": "money doesn’t grow on trees", "czech": "peníze nerostou na stromech", "sentence": "I told the kids money doesn’t grow on trees." },
+      { "english": "live paycheck to paycheck", "czech": "žít od výplaty k výplatě", "sentence": "Many people still live paycheck to paycheck." },
+      { "english": "pick up the tab", "czech": "zaplatit účet", "sentence": "He picked up the tab for the entire dinner." },
+      { "english": "tighten the purse strings", "czech": "utáhnout opasky (omezit výdaje)", "sentence": "We need to tighten the purse strings this month." },
+      { "english": "nest egg", "czech": "úspory na důchod", "sentence": "They’ve built a nice little nest egg." },
+      { "english": "throw money down the drain", "czech": "vyhazovat peníze oknem", "sentence": "Buying that gadget was throwing money down the drain." }
     ]
-  },
-  "Nemoci a nepohoda": {
-    "Zdravotní stav a nepříjemnosti": [
-      { "english": "under the weather", "czech": "necítit se dobře", "sentence": "I'm feeling under the weather today." },
-      { "english": "a pain in the neck", "czech": "otravná věc/osoba", "sentence": "This broken printer is a real pain in the neck." },
-      { "english": "catch your death (of cold)", "czech": "nastydnout až do nemoci", "sentence": "Put on a coat or you'll catch your death!" }
-    ]
-  }
+    }
 }

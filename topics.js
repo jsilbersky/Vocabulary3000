@@ -259,59 +259,69 @@ const vocabularyCategories = [
 
 const idiomsCategories = [
   {
-    name: "Sociální situace",
+    name: "Idiomy",
     topics: [
-      "Konverzace a interakce",
-      "Emoce a reakce",
-      "Konflikty a dohody"
-    ]
-  },
-  {
-    name: "Každodenní život",
-    topics: [
-      "Spánek a únava",
-      "Zvyky a rutina",
-      "Rodina a domov"
-    ]
-  },
-  {
-    name: "Popis a hodnocení",
-    topics: [
-      "Jednoduchost a obtížnost",
-      "Chyby a selhání",
-      "Chování a charakter"
-    ]
-  },
-  {
-    name: "Zdraví a pocity",
-    topics: [
-      "Nemoci a nepohoda",
-      "Stres a duševní stav"
-    ]
-  },
-  {
-    name: "Finance a hodnota",
-    topics: [
-      "Cena a výdaje",
-      "Obchod a investice"
-    ]
-  },
-  {
-    name: "Rozhodování",
-    topics: [
-      "Zodpovědnost",
-      "Nejistota a volby"
-    ]
-  },
-  {
-    name: "Čas a frekvence",
-    topics: [
-      "Vzácné události",
-      "Zpoždění a rychlost"
+      "Oblečení",
+      "Jídlo a vaření",
+      "Cestování",
+      "Nákupy",
+      "Peníze",
+      "Volný čas a zábava",
+      "Přátelství",
+      "Rodina",
+      "Emoce a pocity",
+      "Škola a studium",
+      "Práce",
+      "Komunikace a média",
+      "Technika a internet",
+      "Domácnost",
+      "Tělo a zdraví",
+      "Zaměstnání a kariéra",
+      "Každodenní aktivity",
+      "Osobní růst a změna",
+      "Rozhodování a názory",
+      "Problémy a řešení",
+      "Čas a plánování",
+      "Vztahy",
+      "Příroda a prostředí",
+      "Doprava",
+      "Sport"
     ]
   }
 ];
 
+const phrasalVerbsCategories = [
+  {
+    name: "Frázová slovesa",
+    topics: [
+      "Oblečení",
+      "Jídlo a vaření",
+      "Cestování",
+      "Nákupy",
+      "Peníze",
+      "Volný čas a zábava",
+      "Přátelství",
+      "Rodina",
+      "Emoce a pocity",
+      "Škola a studium",
+      "Práce",
+      "Komunikace a média",
+      "Technika a internet",
+      "Domácnost",
+      "Tělo a zdraví",
+      "Zaměstnání a kariéra",
+      "Každodenní aktivity",
+      "Osobní růst a změna",
+      "Rozhodování a názory",
+      "Problémy a řešení",
+      "Čas a plánování",
+      "Vztahy",
+      "Příroda a prostředí",
+      "Doprava",
+      "Sport"
+    ]
+  }
+];
 
 // Funkce pro zobrazení kategorií
 function renderTopics(type) {
@@ -323,6 +333,9 @@ function renderTopics(type) {
       break;
     case "idioms":
       categories = idiomsCategories;
+      break;
+    case "phrasal_verbs":
+      categories = phrasalVerbsCategories;
       break;
     // Můžeš přidat další typy později
     default:
@@ -362,7 +375,6 @@ function renderTopics(type) {
     topicsContainer.appendChild(section);
   });
 }
-
 
 // Pokud je typ neznámý nebo chybí – přesměrování zpět
 if (!type) {
