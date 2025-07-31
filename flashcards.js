@@ -169,17 +169,23 @@ dontRememberBtn.addEventListener("click", () => {
   }, 400);
 
   function handleEnd(e) {
-    if (e.propertyName === "transform" && card.classList.contains("card-dont-remember")) {
-      clearTimeout(timeoutId);
-      card.removeEventListener("transitionend", handleEnd);
-      const word = words[currentIndex];
-      word.repeat += 1;
-      shuffleWords();
-      currentIndex = 0;
-      card.classList.remove("card-dont-remember");
-      showCard();
-    }
+  if (e.propertyName === "transform" && card.classList.contains("card-dont-remember")) {
+    clearTimeout(timeoutId);
+    card.removeEventListener("transitionend", handleEnd);
+
+    const word = words.splice(currentIndex, 1)[0];
+
+    // náhodný index kam slovo vložit (kdekoliv mimo první pozici)
+    const insertIndex = Math.floor(Math.random() * (words.length - 1)) + 1;
+    words.splice(insertIndex, 0, word);
+
+    if (currentIndex >= words.length) currentIndex = 0;
+
+    card.classList.remove("card-dont-remember");
+    showCard();
   }
+}
+
 
   card.addEventListener("transitionend", handleEnd);
 });
