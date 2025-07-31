@@ -28,7 +28,7 @@ function setButtonsDisabled(disabled) {
   rememberBtn.disabled = disabled;
   dontRememberBtn.disabled = disabled;
   pronounceBtn.disabled = disabled;
-  backToHomeBtn.disabled = disabled;
+  backToHomeBtn.disabled = false;
 }
 
 // Ověření potřebných údajů
